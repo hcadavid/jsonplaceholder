@@ -1,14 +1,26 @@
 {
-  "usuarios": [
-    {"id":1,
-     "nombre":"Juan Perez"},
-     {"id":2,
-     "nombre":"Pedro Martinez"},
-     {"id":5,
-     "nombre":"Rodrigo Martinez"}
-  ],
-  "clientes": [
-    {"id":1,
-     "nombre":"Juan Perez"}
+  "empresas": [
+    {"id":"111.323.433-4",
+     "nombre-comercial":"Music S.A.",
+     "fecha-constitucion":"01/01/2014",
+     "representante-legal":
+        {
+          "nombre":"Juan Perez",
+          "id":33234232,
+          "tipo_id":"cc"
+
+        }
+     },
+     {"id":"121.323.433-4",
+     "nombre-comercial":"La Musica S.A.",
+     "fecha-constitucion":"01/01/2012",
+     "representante-legal":
+        {
+          "nombre":"Pedro Martinez",
+          "id":2334322,
+          "tipo_id":"cc"
+
+        }
+     }
   ]
 }
